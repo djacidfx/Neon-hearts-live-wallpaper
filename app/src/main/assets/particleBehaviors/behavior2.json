@@ -1,0 +1,16 @@
+{
+	"spawner":{
+				"spawnBound":"0,0,100,50",
+				"max_live_particles":"18",
+				"p_size":"7,12",
+				"p_life":"2000,8000"
+			},
+	"componants":
+	[
+		{"type":"fade","from":0,"to":100,"duration":300,"startDelay":0},
+		{"type":"fade","from":100,"to":0,"duration":300,"startDelay":-1},
+		{"type":"move","movmentBehavior":"random","xSpeed":"1,-1","ySpeed":"12,9","duration":-2,"startDelay":0},
+		{"type":"scal","fromScal":"0","toScal":"100","duration":300,"startDelay":0},
+		{"type":"scal","fromScal":"100","toScal":"50","duration":-2,"startDelay":0}
+	]
+}

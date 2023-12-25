@@ -1,0 +1,24 @@
+{
+	"title":"live wallpaper 1",
+	"layers":[
+		{
+			"type":"particleSystem",
+			"paralax":"50",
+			"moveInsideBounds":false,
+			"images":[{"Path":"bg/particle.png"}],
+			"spawner":{
+				"spawnBound":"0,0,100,50",
+				"max_live_particles":"10",
+				"p_size":"12,17",
+				"p_life":"4000,15000"
+			},
+			"componants":[
+				{"type":"fade","from":0,"to":40,"duration":1000,"startDelay":0},
+				{"type":"fade","from":40,"to":0,"duration":1000,"startDelay":-1},
+				{"type":"move","movmentBehavior":"random","randomize":"80,30,200","xSpeed":"1,-1","ySpeed":"9,5","duration":-2,"startDelay":0},
+				{"type":"scal","fromScal":"0","toScal":"100","duration":300,"startDelay":0},
+				{"type":"scal","fromScal":"100","toScal":"50","duration":-2,"startDelay":0}
+			]
+		}
+	]
+}

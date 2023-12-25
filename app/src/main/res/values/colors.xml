@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ec7161</color>
+    <color name="colorPrimary">#4483ce</color>
+    <color name="colorPrimaryDark">#3169ac</color>
+
+
+    <color name="color1">#42ffffff</color>
+    <color name="colorAccent2">#23c2ed</color>
+    <color name="colorPrimary1">#022950</color>
+    <color name="colorPrimaryDark1">#022950</color>
+    <color name="colorPrimarySoft">#024485</color>
+    <color name="colorPrimarySoft1">#024485</color>
+
+
+
+    <color name="MainApplyColor">#4483ce</color>
+    <color name="MainMoreThemes">#88827c</color>
+    <color name="MainMoreThemesUpdated">#ec3a75</color>
+    <color name="MainOur1App">#ec7161</color>
+    <color name="MainRateUs">#42a8a3</color>
+    <color name="Main_Bg_Gradient_Tint">#f5f0f4</color>
+    <color name="animationsButtonColor">#673ebb</color>
+
+    <color name="darkTextColor">#444</color>
+    <color name="icon_tint">#fff</color>
+    <color name="icons_bg_color">#fff</color>
+    <color name="optionsButtonColor">#ce1576</color>
+    <color name="particlesButtonColor">#ff9100</color>
+    <color name="sponsoredColor">#0b9c0b</color>
+    <color name="test_color">#000</color>
+    <color name="text1">#7e7e7e</color>
+    <color name="toucEffectButtonColor">#56a069</color>
+    <color name="wallpaper_activity_bg">#201e29</color>
+    <color name="wallpaper_activity_main_color">#141319</color>
+
+</resources>

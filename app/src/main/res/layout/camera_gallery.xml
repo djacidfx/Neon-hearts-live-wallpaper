@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardPreventCornerOverlap="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:textColor="@color/darkTextColor"
+                android:gravity="center"
+                android:id="@+id/textView"
+                android:padding="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Choose Image From :" />
+
+            <LinearLayout
+                android:id="@+id/camera"
+                android:background="@drawable/rounded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_photo_camera" />
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkTextColor"
+                    android:layout_gravity="center"
+                    android:padding="4dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Camera"
+                    android:layout_weight="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gallery"
+                android:background="@drawable/rounded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_gallery" />
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkTextColor"
+                    android:layout_gravity="center"
+                    android:padding="4dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gallery"
+                    android:layout_weight="6" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,14 @@
+{
+	"spawner":{
+				"spawnBound":"0,0,100,100",
+				"max_live_particles":"0",
+				"p_size":"7,12",
+				"p_life":"500,1000"
+			},
+	"componants":
+	[
+		{"type":"fade","from":50,"to":0,"duration":300,"startDelay":-1},
+		{"type":"move","movmentBehavior":"random","xSpeed":"4,-4","ySpeed":"-20,-30","duration":-2,"startDelay":0,"moveInsideBounds":true},
+		{"type":"scal","fromScal":"100","toScal":"20","duration":-2,"startDelay":0}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"spawner":{
+				"spawnBound":"0,0,100,100",
+				"max_live_particles":"200",
+				"p_size":"2,13",
+				"p_life":"4000,8000"
+			},
+	"componants":
+	[
+
+		{"type":"scaler","from":0,"to":100,"duration":700,"startDelay":0},
+		{"type":"scaler","from":100,"to":0,"duration":1000,"startDelay":1300},
+
+
+		{"type":"fade","from":0,"to":100,"duration":700,"startDelay":0},
+		{"type":"fade","from":100,"to":0,"duration":1000,"startDelay":1300}
+	]
+}

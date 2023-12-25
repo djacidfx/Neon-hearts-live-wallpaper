@@ -1,0 +1,62 @@
+<resources>
+
+
+    <string name="app_name">Neon hearts live wallpaper</string>
+
+    <string name="animations">Animations</string>
+    <string name="apply">Apply</string>
+    <string name="apply2">Apply</string>
+    <string name="border_collision">Border Collision</string>
+    <string name="chip_text">Chip text</string>
+    <string name="choose_wallpaper">Choose Wallpaper</string>
+    <string name="close_app">Close app</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="count">Count</string>
+    <string name="defaultAnimation">2</string>
+    <string name="defaultParticleCount">80</string>
+    <string name="defaultParticleSize">130</string>
+    <string name="defaultParticleSpeed">60</string>
+    <string name="defaultTouchEffect">1</string>
+    <string name="defaultWallpaper">1</string>
+    <string name="device_not_supported_msg">Sorry, Your device does not support live wallpaper feature , you can still use our static wallpapers, Would you like to see them?</string>
+    <string name="device_not_supported_title">Device not supported</string>
+    <string name="glitter_enabled_by_default">1</string>
+    <string name="label">Label</string>
+    <string name="later">Maybe later</string>
+    <string name="loading_ads">Loading Ads</string>
+    <string name="loading_wallpaper">Loading Wallpaper</string>
+    <string name="more_themes">More Themes</string>
+    <string name="never">Never</string>
+    <string name="open_app_ads_id" />
+    <string name="options">Options</string>
+    <string name="our1AppLink">Our #1 app</string>
+    <string name="our_1_app">Our #1 app</string>
+    <string name="particleCountMax">200</string>
+    <string name="particleSizeMax">200</string>
+    <string name="particleSpeedMax">160</string>
+    <string name="particles">Particles</string>
+    <string name="particles_options">Particles Options</string>
+    <string name="preview">Preview</string>
+    <string name="project_id">hd-wallpaper-themes</string>
+    <string name="rate_push">Please rate the app</string>
+    <string name="rate_us">Rate us</string>
+    <string name="rate_us2">Rate Us !!</string>
+    <string name="rate_us_message">We\'re glad you\'re enjoying using our app! Would you mind giving us a review in the play store? it really helps us out! Thanks for you support</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_particles">Select Particle first</string>
+    <string name="show_me">Show me</string>
+    <string name="size">Size</string>
+    <string name="speed">Speed</string>
+    <string name="sponsored">sponsored</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="thanksForRating">Thanks for your rating</string>
+    <string name="this_wallpaper_is_locked_watch_a_short_ad_video_and_get_it_for_free">This wallpaper is locked, Watch a short ad video and get it for free</string>
+    <string name="touch_effect">Touch Effect</string>
+    <string name="unlock_wallpaper">Unlock Wallpaper</string>
+    <string name="view_wallpaper">View Wallpaper</string>
+    <string name="wallpaper_not_unlocked">Wallpaper not unlocked</string>
+    <string name="wallpaper_unlocked">Wallpaper unlocked</string>
+    <string name="wallpapers">Wallpapers</string>
+    <string name="watch_it">Watch it</string>
+
+</resources>

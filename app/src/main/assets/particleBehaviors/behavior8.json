@@ -1,0 +1,14 @@
+{
+	"spawner":{
+				"spawnBound":"46,46,54,54",
+				"max_live_particles":"30",
+				"p_size":"5,10",
+				"p_life":"2000,8000"
+			},
+	"componants":[
+		{"type":"fade","from":0,"to":100,"duration":300,"startDelay":0},
+		{"type":"fade","from":100,"to":0,"duration":300,"startDelay":-1},
+		{"type":"move","velocity":"0,0","movmentBehavior":"random","xSpeed":"30,-30","ySpeed":"30,-30","duration":-2,"startDelay":0,"moveInsideBounds":true},
+		{"type":"scal","fromScal":"100","toScal":"0","duration":-2,"startDelay":0}
+	]
+}
